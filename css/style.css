@@ -9,6 +9,10 @@ body {
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;;
 }
+main{
+    width: 43%;
+
+}
 main,.grid1{
     padding: 2.8rem 4rem;
 }
@@ -22,7 +26,7 @@ li{
     color: hsl(204, 43%, 93%);
     font-size: .95rem;
 }
-h3,h5,.btn,.span-dollar{
+h4,h3,h5,.btn,.span-dollar{
     font-weight: 700;
 }
 .btn{
@@ -56,10 +60,6 @@ h3{
 .main-para{
     color: hsl(218, 22%, 67%);
 }
-.first{
-    margin-bottom: .3rem;
-    
-}
 .grid{
     display: flex;
     flex-flow: row wrap;
@@ -86,4 +86,47 @@ h3{
 }
 .attribution a { 
         color: hsl(179, 62%, 43%); 
+}
+@media screen and (max-width:750px) and (min-width:360px) {
+    main{
+        width: 100%;
+    
+    }
+    main,.grid1{
+        padding: 2rem 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    h4{
+        font-size: 1.3rem;
+    }
+
+    .btn{
+        max-width: 100%;
+    }
+    .grid{
+        flex-flow: column wrap;
+    }
+    .grid2 h5{
+        padding-bottom: 1.3rem;
+    }
+}
+@media screen and (max-width:750px) and (min-width:500px) {
+    .grid{
+        text-align: center;
+    }
+    .btn{
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width:1440px) and (min-width:750px) {
+    main{
+        width: 90%;
+    
+    }
+    .btn{
+        max-width: 60%;
+    }
 }
