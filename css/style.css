@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;;
+}
+main{
+    padding: 3.5rem 8rem;
+}
+h2{
+    color: hsl(179, 62%, 43%);
+}
+.main-h3{
+    color: hsl(71, 73%, 54%);
+}
+.main-para{
+    color: hsl(218, 22%, 67%);
+}
+.grid{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
