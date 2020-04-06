@@ -9,20 +9,81 @@ body {
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;;
 }
-main{
-    padding: 3.5rem 8rem;
+main,.grid1{
+    padding: 2.8rem 4rem;
 }
-h2{
+h5,.span-dollar{
+    color: #ffffff;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    color: hsl(204, 43%, 93%);
+    font-size: .95rem;
+}
+h3,h5,.btn,.span-dollar{
+    font-weight: 700;
+}
+.btn{
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    max-width: 50%;
+    padding: .8rem;
+    margin-top: .7rem;
+}
+.btn:hover{
+    background-color: hsl(71, 73%, 44%);
+}
+.span-dollar{
+    font-size: 3rem;
+}
+.span-month{
+    color:hsl(204, 43%, 93%);
+    margin-left: .8rem;
+    font-size: .8rem;
+    /* font-weight: bold; */
+}
+h3{
+    padding-bottom: 1.3rem;
     color: hsl(179, 62%, 43%);
 }
-.main-h3{
+.main-h4{
     color: hsl(71, 73%, 54%);
+    padding-bottom: .45rem;
+
 }
 .main-para{
     color: hsl(218, 22%, 67%);
 }
+.first{
+    margin-bottom: .3rem;
+    
+}
 .grid{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    
+    /* justify-content: space-between; */
+}
+.grid1{
+    background-color: hsl(179, 62%, 43%);
+    color: #ffffff;
+    flex-basis: 50%;
+
+}
+.grid2{
+    background-color: hsla(179, 62%, 43%, 0.76);
+    padding: 2.8rem 3rem 4rem;
+    flex-basis: 50%;
+}
+.grid2 h5{
+    padding-bottom: 2rem;
+}
+.attribution { 
+    font-size: .8rem; 
+    text-align: center; 
+}
+.attribution a { 
+        color: hsl(179, 62%, 43%); 
 }
